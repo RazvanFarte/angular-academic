@@ -55,6 +55,7 @@ import {
 import {ReactiveFormsModule} from '@angular/forms';
 import { SituationTableComponent } from './situation-table/situation-table.component';
 import { TeacherSituationComponent } from './teacher-situation/teacher-situation.component';
+import {RegisterComponent} from './register/register.component';
 
 
 
@@ -122,7 +123,8 @@ export class MaterialModule {
     LoginComponent,
     CommunicationComponent,
     SituationTableComponent,
-    TeacherSituationComponent
+    TeacherSituationComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
